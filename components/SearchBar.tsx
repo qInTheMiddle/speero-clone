@@ -21,13 +21,17 @@ export default function SearchBar({ value, onChange, onSubmit }: SearchBarProps)
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="relative w-full bg-white h-[34px]">
             <input
                 type="text"
                 placeholder="Search by name or part number..."
-                className="w-full p-3 border-2 border-gray-300 bg-gray-300 text-black rounded-lg focus:border-red-500 outline-none"
+                className="w-full h-full px-3 pr-10 text-[#0d0630] focus:outline-none"
                 value={value}
                 onChange={e => onChange(e.target.value)}
+            />
+            <span 
+                className="absolute right-1 top-1 w-5 h-5 cursor-pointer 
+                bg-[url(/image/icons/search.svg)] bg-center bg-no-repeat bg-[length:15px] opacity-25 hover:opacity-100"
             />
         </form>
     );

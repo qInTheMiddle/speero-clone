@@ -7,6 +7,7 @@ import CartDrawer from "@/components/CartDrawer";
 import ConfirmationDrawer from "@/components/ConfirmationDrawer";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { IBM_Plex_Sans_Arabic } from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,6 +17,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const ibmPlexArabic = IBM_Plex_Sans_Arabic({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['arabic', 'latin'],
 });
 
 export const metadata: Metadata = {
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexArabic.className} antialiased`}
       >
         <AuthProvider>
           <CartProvider>

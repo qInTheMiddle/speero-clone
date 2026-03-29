@@ -181,18 +181,18 @@ export default function Home() {
       <main>
         <div className="py-8">
           <div>
-            <h1 className="text-2xl font-bold text-gray-300">Buy Genuine Car Spare Parts</h1>
-            <p className="mt-1 text-base text-gray-300">Browse our wide collection of spare parts and car services</p>
+            <h1 className="text-2xl font-bold text-gray-900">Buy Genuine Car Spare Parts</h1>
+            <p className="mt-1 text-base text-gray-600">Browse our wide collection of spare parts and car services</p>
           </div>
         </div>
 
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex justify-between items-center text-gray-300">
+          <h2 className="text-2xl font-bold mb-4 flex justify-between items-center text-gray-900">
             <span>
               Spare Parts Market
             </span>
             <Link href="/spare-parts/discover" 
-              className="bg-green-700 text-sm px-5 py-2 rounded-lg hover:bg-gray-300"
+              className="bg-[#41d3bd] text-white text-sm px-5 py-2 rounded-lg hover:bg-gray-300"
             >
               View All
             </Link>
@@ -234,13 +234,13 @@ export default function Home() {
         </div>}
         
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex justify-between items-center">
+          <h2 className="text-2xl font-bold mb-4 flex justify-between items-center text-gray-900">
             <span>
               Car Services
             </span>
             <Link 
               href="/car-services/"
-              className="bg-green-700 text-sm px-5 py-2 rounded-lg hover:bg-gray-300"
+              className="bg-[#41d3bd] text-white text-sm px-5 py-2 rounded-lg hover:bg-gray-300"
             >
               View All
             </Link>
@@ -288,7 +288,7 @@ export default function Home() {
         </div>}
       
         {/* <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 flex justify-between items-center">
+          <h2 className="text-2xl font-bold mb-4 flex justify-between items-center text-gray-900">
             <span>
               Accessories
             </span>
