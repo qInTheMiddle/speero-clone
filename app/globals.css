@@ -41,3 +41,29 @@ body {
 .overflow-x-auto::-webkit-scrollbar-thumb:hover {
   background: #374151;
 }
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+.footer-social a {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background-size: 27px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.footer-social a.insta {
+  background-image: url('/image/icons/insta.svg');
+}
+.footer-social a.twitter {
+  background-image: url('/image/icons/twitter.svg');
+}
+.footer-social a.tiktok {
+  background-image: url('/image/icons/tiktok.svg');
+}
+
+.footer-dotted-border {
+  border: 1px dashed #fca5a5;
+}
