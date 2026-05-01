@@ -2,506 +2,506 @@ import type { SparePart } from '../app/types';
 
 export const initialSpareParts: SparePart[] = [
   {
-    "id": "1",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "58101H6A15",
-    "price": 69,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "1",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "58101H6A15",
+    price: 69,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Accent",
-        "yearRange": "2018-2022"
+        brand: "Hyundai",
+        model: "Hyundai Accent",
+        yearRange: "2018-2022"
       }
     ]
   },
   {
-    "id": "2",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "58101H6A15",
-    "price": 297,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "2",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "58101H6A15",
+    price: 297,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Accent",
-        "yearRange": "2018-2022"
+        brand: "Hyundai",
+        model: "Hyundai Accent",
+        yearRange: "2018-2022"
       }
     ]
   },
   {
-    "id": "3",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581013XA00",
-    "price": 230,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "3",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581013XA00",
+    price: 230,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Elantra",
-        "yearRange": "2012-2015"
+        brand: "Hyundai",
+        model: "Hyundai Elantra",
+        yearRange: "2012-2015"
       }
     ]
   },
   {
-    "id": "4",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "583023MA01",
-    "price": 47,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "4",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "583023MA01",
+    price: 47,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Genesis",
-        "yearRange": "2008-2014"
+        brand: "Hyundai",
+        model: "Hyundai Genesis",
+        yearRange: "2008-2014"
       }
     ]
   },
   {
-    "id": "5",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "583023MA01",
-    "price": 229,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "5",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "583023MA01",
+    price: 229,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Genesis",
-        "yearRange": "2008-2014"
+        brand: "Hyundai",
+        model: "Hyundai Genesis",
+        yearRange: "2008-2014"
       }
     ]
   },
   {
-    "id": "6",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "583023KA62",
-    "price": 40,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "6",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "583023KA62",
+    price: 40,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Sonata",
-        "yearRange": "2008-2010"
+        brand: "Hyundai",
+        model: "Hyundai Sonata",
+        yearRange: "2008-2010"
       }
     ]
   },
   {
-    "id": "7",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "583023KA62",
-    "price": 194,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "7",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "583023KA62",
+    price: 194,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Sonata",
-        "yearRange": "2008-2010"
+        brand: "Hyundai",
+        model: "Hyundai Sonata",
+        yearRange: "2008-2010"
       }
     ]
   },
   {
-    "id": "8",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "58302D3A00",
-    "price": 38,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "8",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "58302D3A00",
+    price: 38,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Tucson",
-        "yearRange": "2016-2020"
+        brand: "Hyundai",
+        model: "Hyundai Tucson",
+        yearRange: "2016-2020"
       }
     ]
   },
   {
-    "id": "9",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "58302D3A00",
-    "price": 38,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "9",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "58302D3A00",
+    price: 38,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Kia",
-        "model": "Kia Sportage",
-        "yearRange": "2016-2020"
+        brand: "Kia",
+        model: "Kia Sportage",
+        yearRange: "2016-2020"
       }
     ]
   },
   {
-    "id": "10",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "58302D3A00",
-    "price": 185,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "10",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "58302D3A00",
+    price: 185,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Tucson",
-        "yearRange": "2016-2020"
+        brand: "Hyundai",
+        model: "Hyundai Tucson",
+        yearRange: "2016-2020"
       }
     ]
   },
   {
-    "id": "11",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "58302D3A00",
-    "price": 185,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "11",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "58302D3A00",
+    price: 185,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Kia",
-        "model": "Kia Sportage",
-        "yearRange": "2016-2020"
+        brand: "Kia",
+        model: "Kia Sportage",
+        yearRange: "2016-2020"
       }
     ]
   },
   {
-    "id": "12",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581013VA50",
-    "price": 63,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "12",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581013VA50",
+    price: 63,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Azera",
-        "yearRange": "2013-2017"
+        brand: "Hyundai",
+        model: "Hyundai Azera",
+        yearRange: "2013-2017"
       }
     ]
   },
   {
-    "id": "13",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581013VA50",
-    "price": 315,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "13",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581013VA50",
+    price: 315,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Azera",
-        "yearRange": "2013-2017"
+        brand: "Hyundai",
+        model: "Hyundai Azera",
+        yearRange: "2013-2017"
       }
     ]
   },
   {
-    "id": "14",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "58101F6A21",
-    "price": 373.75,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "14",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "58101F6A21",
+    price: 373.75,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Azera",
-        "yearRange": "2017-2020"
+        brand: "Hyundai",
+        model: "Hyundai Azera",
+        yearRange: "2017-2020"
       }
     ]
   },
   {
-    "id": "15",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "58101F6A21",
-    "price": 373.75,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "15",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "58101F6A21",
+    price: 373.75,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Kia",
-        "model": "Kia Cadenza",
-        "yearRange": "2017-2020"
+        brand: "Kia",
+        model: "Kia Cadenza",
+        yearRange: "2017-2020"
       }
     ]
   },
   {
-    "id": "16",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581012SA70",
-    "price": 61,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "16",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581012SA70",
+    price: 61,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Tucson",
-        "yearRange": "2011-2015"
+        brand: "Hyundai",
+        model: "Hyundai Tucson",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "17",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581012SA70",
-    "price": 61,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "17",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581012SA70",
+    price: 61,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Kia",
-        "model": "Kia Sportage",
-        "yearRange": "2011-2015"
+        brand: "Kia",
+        model: "Kia Sportage",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "18",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581012SA70",
-    "price": 233,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "18",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581012SA70",
+    price: 233,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Tucson",
-        "yearRange": "2011-2015"
+        brand: "Hyundai",
+        model: "Hyundai Tucson",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "19",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581012SA70",
-    "price": 233,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "19",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581012SA70",
+    price: 233,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Kia",
-        "model": "Kia Sportage",
-        "yearRange": "2011-2015"
+        brand: "Kia",
+        model: "Kia Sportage",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "20",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581011RA10",
-    "price": 238,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "20",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581011RA10",
+    price: 238,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Accent",
-        "yearRange": "2011-2018"
+        brand: "Hyundai",
+        model: "Hyundai Accent",
+        yearRange: "2011-2018"
       }
     ]
   },
   {
-    "id": "21",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581012TA00",
-    "price": 50,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
-      { "brand": "Kia", "model": "Kia Optima", "yearRange": "2011-2015" },
-      { "brand": "Kia", "model": "Kia Optima", "yearRange": "2013-2015" },
-      { "brand": "Kia", "model": "Kia Optima", "yearRange": "2015" }
+    id: "21",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581012TA00",
+    price: 50,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
+      { brand: "Kia", model: "Kia Optima", yearRange: "2011-2015" },
+      { brand: "Kia", model: "Kia Optima", yearRange: "2013-2015" },
+      { brand: "Kia", model: "Kia Optima", yearRange: "2015" }
     ]
   },
   {
-    "id": "22",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581013SA26",
-    "price": 63,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "22",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581013SA26",
+    price: 63,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Sonata",
-        "yearRange": "2011-2015"
+        brand: "Hyundai",
+        model: "Hyundai Sonata",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "23",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads F",
-    "number": "581013SA26",
-    "price": 288,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "23",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads F",
+    number: "581013SA26",
+    price: 288,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Sonata",
-        "yearRange": "2011-2015"
+        brand: "Hyundai",
+        model: "Hyundai Sonata",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "24",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads rear",
-    "number": "D4060EB36A",
-    "price": 403,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
-      { "brand": "Nissan", "model": "Nissan Navara", "yearRange": "2008-2022" },
-      { "brand": "Nissan", "model": "Nissan Xterra", "yearRange": "2021-2023" }
+    id: "24",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads rear",
+    number: "D4060EB36A",
+    price: 403,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
+      { brand: "Nissan", model: "Nissan Navara", yearRange: "2008-2022" },
+      { brand: "Nissan", model: "Nissan Xterra", yearRange: "2021-2023" }
     ]
   },
   {
-    "id": "25",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads rear",
-    "number": "D40601UY6A",
-    "price": 209,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
-      { "brand": "Nissan", "model": "Nissan Sentra", "yearRange": "2014-2019" },
-      { "brand": "Nissan", "model": "Nissan Tiida", "yearRange": "2013-2019" }
+    id: "25",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads rear",
+    number: "D40601UY6A",
+    price: 209,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
+      { brand: "Nissan", model: "Nissan Sentra", yearRange: "2014-2019" },
+      { brand: "Nissan", model: "Nissan Tiida", yearRange: "2013-2019" }
     ]
   },
   {
-    "id": "26",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake Pads",
-    "number": "D40601LA6B",
-    "price": 195,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "26",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake Pads",
+    number: "D40601LA6B",
+    price: 195,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Nissan",
-        "model": "Nissan Patrol Platinum",
-        "yearRange": "2010-2024"
+        brand: "Nissan",
+        model: "Nissan Patrol Platinum",
+        yearRange: "2010-2024"
       }
     ]
   },
   {
-    "id": "27",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Front Brake Pads Kit",
-    "number": "D1060EM30C",
-    "price": 209,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "27",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Front Brake Pads Kit",
+    number: "D1060EM30C",
+    price: 209,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Nissan",
-        "model": "Nissan Tiida",
-        "yearRange": "2007-2012"
+        brand: "Nissan",
+        model: "Nissan Tiida",
+        yearRange: "2007-2012"
       }
     ]
   },
   {
-    "id": "28",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads rear",
-    "number": "44060VE426",
-    "price": 230,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "28",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads rear",
+    number: "44060VE426",
+    price: 230,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Nissan",
-        "model": "Nissan Urvan",
-        "yearRange": "2002-2019"
+        brand: "Nissan",
+        model: "Nissan Urvan",
+        yearRange: "2002-2019"
       }
     ]
   },
   {
-    "id": "29",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake Pads",
-    "number": "440608J00K",
-    "price": 266,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "29",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake Pads",
+    number: "440608J00K",
+    price: 266,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Nissan",
-        "model": "Nissan Altima",
-        "yearRange": "2005-2022"
+        brand: "Nissan",
+        model: "Nissan Altima",
+        yearRange: "2005-2022"
       }
     ]
   },
   {
-    "id": "30",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake Pads",
-    "number": "277223RA0A",
-    "price": 97,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "30",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake Pads",
+    number: "277223RA0A",
+    price: 97,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Nissan",
-        "model": "Nissan Sunny",
-        "yearRange": "2012-2019"
+        brand: "Nissan",
+        model: "Nissan Sunny",
+        yearRange: "2012-2019"
       }
     ]
   },
   {
-    "id": "31",
-    "type": "Original",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "583023SA20",
-    "price": 164,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "31",
+    type: "Original",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "583023SA20",
+    price: 164,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Sonata",
-        "yearRange": "2011-2015"
+        brand: "Hyundai",
+        model: "Hyundai Sonata",
+        yearRange: "2011-2015"
       }
     ]
   },
   {
-    "id": "32",
-    "type": "Replacement",
-    "imageUrl": "/image/parts/brake-pads.jpg",
-    "name": "Brake pads R",
-    "number": "583023SA20",
-    "price": 44,
-    "category": "Brakes and Brake Pads",
-    "fitsWith": [
+    id: "32",
+    type: "Replacement",
+    imageUrl: "/image/parts/brake-pads.jpg",
+    name: "Brake pads R",
+    number: "583023SA20",
+    price: 44,
+    category: "Brakes and Brake Pads",
+    fitsWith: [
       {
-        "brand": "Hyundai",
-        "model": "Hyundai Sonata",
-        "yearRange": "2011-2015"
+        brand: "Hyundai",
+        model: "Hyundai Sonata",
+        yearRange: "2011-2015"
       }
     ]
   },

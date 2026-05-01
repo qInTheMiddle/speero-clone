@@ -4,7 +4,7 @@ import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import type { SparePart } from "@/app/types";
 import SparePartCard from "@/components/SparePartCard";
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
 import { useDebounce } from "@/app/hooks/useDebounce";
 import { useRouter } from "next/navigation";

@@ -117,7 +117,7 @@ export default function Header() {
                     rel="noopener noreferrer"
                     className="inline-block h-full flex items-center justify-center py-1"
                 >
-                    Click here to contact us via WhatsApp
+                    This is A selective clone of a real website, focusing on re-creating the core user interface and key workflows to demonstrate technical proficiency in Next.js.
                 </a>
             </div>
 

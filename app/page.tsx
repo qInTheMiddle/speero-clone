@@ -345,31 +345,33 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 flex justify-between items-center">
-              <span>
-                Shop by Car Brand
-              </span>
-            </h2>
-        </div>
-        <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
-              {carBrandsMenuItem?.children?.map(brand => (
+        <div className="max-w-[1320px]">
+
+          <h2 className="text-[20px] font-bold text-[#0d0630] mb-[10px]">Car Manufacturers</h2>
+  
+          <ul className="flex flex-wrap gap-[10px] list-none p-0 m-0 w-[1306px] h-[174px] mb-[20px]">
+            {carBrandsMenuItem?.children?.map(brand => (
+              <li key={brand.label} className="flex items-center justify-center p-[5px] border border-[#e5e9f2] rounded-[8px] w-[152px] h-[82px]">
                 <Link
-                  key={brand.label}
                   href={brand.href || '#'}
-                  className="block bg-white p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
+                  className="flex flex-col items-center h-[58px] w-[128px] text-[14px] text-center text-[#0d0630] no-underline"
                 >
-                  <div className="relative w-full h-16">
+                  <div className="w-[50px] h-[40px] flex items-center justify-center">
                     <Image
                       src={brand.imageUrl || ''}
                       alt={brand.label}
-                      fill
-                      className="object-contain"
+                      width={50}
+                      height={40}
+                      className="max-w-full max-h-full object-contain"
                     />
                   </div>
+                  <span>{brand.label}</span>
                 </Link>
-              ))}
-          </div>
+              </li>
+            ))}
+          </ul>
+
+        </div>
       </main>
     </div>
   );

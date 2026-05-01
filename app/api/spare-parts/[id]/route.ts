@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { initialSpareParts } from "@/data/spareParts";
 
-export async function GET( request: Request, { params } : { params: { id: string } }) {
+export async function GET( request: Request, { params } : { params: Promise<{ id: string }> }) {
     const { id } = await params;
 
     const sparePart = initialSpareParts.find(p => p.id === id);
